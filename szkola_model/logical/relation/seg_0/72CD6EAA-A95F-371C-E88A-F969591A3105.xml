@@ -1,0 +1,44 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Prowadzacy przedmioty" directorySegmentName="seg_0" id="72CD6EAA-A95F-371C-E88A-F969591A3105">
+<createdBy>Hubert</createdBy>
+<createdTime>2022-05-28 12:33:35 UTC</createdTime>
+<ownerDesignName>model_logiczny</ownerDesignName>
+<engineerTo>
+<item key="55813666-262F-D829-2D71-6BE213D3052D" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>CD5ACBE3-62AE-B9D8-68DE-7A05AE1CAC84</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>A48FA223-AC96-4443-3652-AC7A63D76C48</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<attribute name="nauczyciel id" id="167AF3F4-7F7A-395E-C98F-A16DBCC59F05">
+<createdBy>Hubert</createdBy>
+<createdTime>2022-05-28 13:18:45 UTC</createdTime>
+<ownerDesignName>model_logiczny</ownerDesignName>
+<engineerTo>
+<item key="55813666-262F-D829-2D71-6BE213D3052D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</attribute>
+<attribute name="przedmiot id" id="C77D957B-E543-1EB8-B993-F84BE5F93055">
+<createdBy>Hubert</createdBy>
+<createdTime>2022-05-28 13:18:45 UTC</createdTime>
+<ownerDesignName>model_logiczny</ownerDesignName>
+<engineerTo>
+<item key="55813666-262F-D829-2D71-6BE213D3052D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</attribute>
+</attributes>
+</Relation>

@@ -1,0 +1,131 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C62960AA-ACD4-ACAB-1B7C-AEF172E2A15C" name="Oceny_uczniow">
+<createdBy>Hubert</createdBy>
+<createdTime>2022-05-28 12:35:09 UTC</createdTime>
+<ownerDesignName>model_logiczny</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="konkretna_ocena_id" id="31A7BF64-0774-A354-7A5F-8273D27F9709">
+<createdBy>Hubert</createdBy>
+<createdTime>2022-05-28 12:56:39 UTC</createdTime>
+<ownerDesignName>model_logiczny</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="uczen_id" id="49312E65-CC27-6C4D-3FDB-ACEE96B42F6D">
+<createdBy>Hubert</createdBy>
+<createdTime>2022-05-28 12:35:09 UTC</createdTime>
+<ownerDesignName>model_logiczny</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="515A6855-E881-3037-478D-FB44D324A0AA" referredColumn="4874762A-0AA8-128D-61A7-EFE21113F406"/>
+</associations>
+</Column>
+<Column name="ocena_id" id="56F50E55-6977-B491-ED71-C0DAE1095D2E">
+<createdBy>Hubert</createdBy>
+<createdTime>2022-05-29 12:09:28 UTC</createdTime>
+<ownerDesignName>model_logiczny</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypeScale>1</dataTypeScale>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D7497503-5367-71CA-CA53-B3EC06E96233" referredColumn="86667C45-DA54-D953-77A3-D520E639E377"/>
+</associations>
+</Column>
+<Column name="data_wystawienia" id="053C73B5-3C30-D7E7-A6DE-B28BFCFD50BA">
+<createdBy>Hubert</createdBy>
+<createdTime>2022-05-28 12:56:39 UTC</createdTime>
+<ownerDesignName>model_logiczny</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="konkretny_przedmiot_id" id="C3BA42CC-B703-E6D5-BC96-57C98E114D73">
+<createdBy>Hubert</createdBy>
+<createdTime>2022-05-29 12:14:03 UTC</createdTime>
+<ownerDesignName>model_logiczny</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D7AD7CF6-4941-4D5A-F325-75AFA55B224E" referredColumn="4DBD9C69-645D-4E3D-B305-8AD9D0D3DC63"/>
+</associations>
+</Column>
+<Column name="komentarz" id="AE558237-6293-B4C1-7B3D-8AB457E44E65">
+<createdBy>Hubert</createdBy>
+<createdTime>2022-05-28 12:56:39 UTC</createdTime>
+<ownerDesignName>model_logiczny</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>300</dataTypeSize>
+<ownDataTypeParameters>300,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="DF9A98BA-24C2-9999-BA2E-1686BAF4B5C5" name="Oceny_uczniow_PK">
+<createdBy>Hubert</createdBy>
+<createdTime>2022-05-28 12:35:09 UTC</createdTime>
+<ownerDesignName>model_logiczny</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="31A7BF64-0774-A354-7A5F-8273D27F9709"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D8F86FCA-FFB0-44DD-BF67-820868ECAA84" name="Uczniowie_FK">
+<createdBy>Hubert</createdBy>
+<createdTime>2022-05-28 12:35:09 UTC</createdTime>
+<generatorID>2BBF3833-33C4-55DB-DFEC-35CC047FAD2B</generatorID>
+<ownerDesignName>model_logiczny</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="49312E65-CC27-6C4D-3FDB-ACEE96B42F6D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="40CCA7E9-E0D1-9104-0F90-974B049E5F56" name="Oceny_FK">
+<createdBy>Hubert</createdBy>
+<createdTime>2022-05-28 12:35:09 UTC</createdTime>
+<generatorID>2BBF3833-33C4-55DB-DFEC-35CC047FAD2B</generatorID>
+<ownerDesignName>model_logiczny</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="56F50E55-6977-B491-ED71-C0DAE1095D2E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0CA74EF0-5997-6CDD-ACAF-E614A805EB5E" name="Konkretne_przedmioty_FK">
+<createdBy>Hubert</createdBy>
+<createdTime>2022-05-29 12:14:03 UTC</createdTime>
+<ownerDesignName>model_logiczny</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C3BA42CC-B703-E6D5-BC96-57C98E114D73"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

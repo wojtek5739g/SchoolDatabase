@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Uczniowie Klasy FK" directorySegmentName="seg_0" id="74810409-1B27-EC81-F7B4-D549BE88232B">
+<createdBy>Hubert</createdBy>
+<createdTime>2022-05-28 12:24:45 UTC</createdTime>
+<ownerDesignName>model_logiczny</ownerDesignName>
+<engineerTo>
+<item key="55813666-262F-D829-2D71-6BE213D3052D" value="true"/>
+</engineerTo>
+<sourcePk>BD160FD3-7D93-E00C-1659-9BA18C821143</sourcePk>
+<targetPk>4E24C857-C8BC-5215-DB53-259E95D5FECB</targetPk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>B35C0749-47C0-9F04-54C8-E8E19113D6DD</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>491A8091-A5AB-844A-C49B-374F495CBBB1</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,87 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="FF475141-0C08-2EA5-42E7-53C2E47F1664" name="Klasy">
+<createdBy>Hubert</createdBy>
+<createdTime>2022-05-28 12:35:09 UTC</createdTime>
+<generatorID>491A8091-A5AB-844A-C49B-374F495CBBB1</generatorID>
+<ownerDesignName>model_logiczny</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="klasa_id" id="80CA868D-1BF1-8EC4-8E17-3AE47B549897">
+<createdBy>Hubert</createdBy>
+<createdTime>2022-05-28 12:35:09 UTC</createdTime>
+<generatorID>BC296FE4-13C4-0558-1410-4A0FDABD373F</generatorID>
+<ownerDesignName>model_logiczny</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="rok" id="EF59D14C-8C91-5845-53B8-0B7D0BB9C994">
+<createdBy>Hubert</createdBy>
+<createdTime>2022-05-28 12:35:09 UTC</createdTime>
+<generatorID>76F4C698-5A19-89F0-4BE1-062375281BA8</generatorID>
+<ownerDesignName>model_logiczny</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypeScale>1</dataTypeScale>
+<ownDataTypeParameters>,,1</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="litera" id="F0DC8DF8-B9EB-9234-ED90-E71EEBB029C3">
+<createdBy>Hubert</createdBy>
+<createdTime>2022-05-28 12:35:09 UTC</createdTime>
+<generatorID>EB915C21-C682-EDF7-3C46-062A8E0DDCB9</generatorID>
+<ownerDesignName>model_logiczny</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1 BYTE</dataTypeSize>
+<ownDataTypeParameters>1 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="wychowawca_id" id="E9501009-2522-9B28-6020-3DCA2E7D244B">
+<createdBy>Hubert</createdBy>
+<createdTime>2022-05-28 12:35:09 UTC</createdTime>
+<generatorID>939223C2-9B04-5138-9BB9-0710E0A12B0C</generatorID>
+<ownerDesignName>model_logiczny</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FCEFF1B3-4A98-7EAA-1FCE-1D8231FE3B50" referredColumn="CAE4CE67-5240-DE73-5B38-040B5DC4BD91"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9AACB84D-C729-469E-24BE-CCA4036275D0" name="Klasy_PK">
+<createdBy>Hubert</createdBy>
+<createdTime>2022-05-28 12:35:09 UTC</createdTime>
+<generatorID>4E24C857-C8BC-5215-DB53-259E95D5FECB</generatorID>
+<ownerDesignName>model_logiczny</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="80CA868D-1BF1-8EC4-8E17-3AE47B549897"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8D530469-FFC4-1674-9E5B-B296DC0A2D0B" name="Nauczyciele_Wychowawcy_FK">
+<createdBy>Hubert</createdBy>
+<createdTime>2022-05-28 12:35:09 UTC</createdTime>
+<generatorID>B0BE944B-70E0-CD34-2DDB-AD0E98FE87F8</generatorID>
+<ownerDesignName>model_logiczny</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E9501009-2522-9B28-6020-3DCA2E7D244B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

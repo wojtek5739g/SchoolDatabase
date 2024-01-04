@@ -1,0 +1,60 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="A48FA223-AC96-4443-3652-AC7A63D76C48" name="Przedmioty">
+<createdBy>Hubert</createdBy>
+<createdTime>2022-05-28 12:20:51 UTC</createdTime>
+<ownerDesignName>model_logiczny</ownerDesignName>
+<engineerTo>
+<item key="55813666-262F-D829-2D71-6BE213D3052D" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="przedmiot id" id="CCE1472F-1B0B-01C5-1B17-4EEBF824AC9F">
+<createdBy>Hubert</createdBy>
+<createdTime>2022-05-28 12:21:00 UTC</createdTime>
+<ownerDesignName>model_logiczny</ownerDesignName>
+<engineerTo>
+<item key="55813666-262F-D829-2D71-6BE213D3052D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nazwa" id="48037E04-486A-14AD-C233-0A19BA14578B">
+<createdBy>Hubert</createdBy>
+<createdTime>2022-05-28 12:21:09 UTC</createdTime>
+<ownerDesignName>model_logiczny</ownerDesignName>
+<engineerTo>
+<item key="55813666-262F-D829-2D71-6BE213D3052D" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="6C9BE7ED-AA43-2453-709A-B2C677FCFAC7" name="Przedmioty PK">
+<createdBy>Hubert</createdBy>
+<createdTime>2022-05-28 12:21:11 UTC</createdTime>
+<ownerDesignName>model_logiczny</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="55813666-262F-D829-2D71-6BE213D3052D" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>CCE1472F-1B0B-01C5-1B17-4EEBF824AC9F</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

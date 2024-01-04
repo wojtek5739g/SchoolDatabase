@@ -1,0 +1,10 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design"
+             name="szkola_model" id="AEDBF230-F8FE-5D62-09E9-A1CC221839B5"
+             version="3.5">
+    <createdBy>Hubert</createdBy>
+    <createdTime>2022-05-28 11:59:28 UTC</createdTime>
+    <ownerDesignName>model_logiczny</ownerDesignName>
+    <capitalNames>false</capitalNames>
+    <designId>AEDBF230-F8FE-5D62-09E9-A1CC221839B5</designId>
+</OSDM_Design>

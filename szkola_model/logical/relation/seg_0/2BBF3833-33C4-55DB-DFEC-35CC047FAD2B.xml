@@ -1,0 +1,96 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Oceny uczniow" directorySegmentName="seg_0" id="2BBF3833-33C4-55DB-DFEC-35CC047FAD2B">
+<createdBy>Hubert</createdBy>
+<createdTime>2022-05-28 12:32:42 UTC</createdTime>
+<ownerDesignName>model_logiczny</ownerDesignName>
+<engineerTo>
+<item key="55813666-262F-D829-2D71-6BE213D3052D" value="true"/>
+</engineerTo>
+<sourcePk>BD160FD3-7D93-E00C-1659-9BA18C821143</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>B35C0749-47C0-9F04-54C8-E8E19113D6DD</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>10095C0B-2395-76C4-4F32-D2475371F43D</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<attribute name="uczen id" id="B1DEA9DA-6BB5-52B4-0A92-5077A2F452D4">
+<createdBy>Hubert</createdBy>
+<createdTime>2022-05-28 13:18:45 UTC</createdTime>
+<ownerDesignName>model_logiczny</ownerDesignName>
+<engineerTo>
+<item key="55813666-262F-D829-2D71-6BE213D3052D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</attribute>
+<attribute name="ocena id" id="DF5BB755-9F68-A3EA-5FDB-3A1CFBBCB2F2">
+<createdBy>Hubert</createdBy>
+<createdTime>2022-05-28 13:18:45 UTC</createdTime>
+<ownerDesignName>model_logiczny</ownerDesignName>
+<engineerTo>
+<item key="55813666-262F-D829-2D71-6BE213D3052D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</attribute>
+<attribute name="wystawiajacy id" id="3A572022-AE91-5104-8EB7-E9BCCBCF076D">
+<createdBy>Hubert</createdBy>
+<createdTime>2022-05-28 13:18:45 UTC</createdTime>
+<ownerDesignName>model_logiczny</ownerDesignName>
+<engineerTo>
+<item key="55813666-262F-D829-2D71-6BE213D3052D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</attribute>
+<attribute name="data wystawienia" id="1E46C23B-1693-BD4C-F458-E7898BB33291">
+<createdBy>Hubert</createdBy>
+<createdTime>2022-05-28 13:18:45 UTC</createdTime>
+<generatorID>053C73B5-3C30-D7E7-A6DE-B28BFCFD50BA</generatorID>
+<ownerDesignName>model_logiczny</ownerDesignName>
+<engineerTo>
+<item key="55813666-262F-D829-2D71-6BE213D3052D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</attribute>
+<attribute name="komentarz" id="0521D2EA-5473-0BDF-0935-97B4AE8D8431">
+<createdBy>Hubert</createdBy>
+<createdTime>2022-05-28 13:18:45 UTC</createdTime>
+<generatorID>AE558237-6293-B4C1-7B3D-8AB457E44E65</generatorID>
+<ownerDesignName>model_logiczny</ownerDesignName>
+<engineerTo>
+<item key="55813666-262F-D829-2D71-6BE213D3052D" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</attribute>
+<attribute name="Oceny ocena id" id="4C77D21F-76E5-A050-57A1-546B34AA96B8">
+<createdBy>Hubert</createdBy>
+<createdTime>2022-05-29 12:10:45 UTC</createdTime>
+<ownerDesignName>model_logiczny</ownerDesignName>
+<engineerTo>
+<item key="55813666-262F-D829-2D71-6BE213D3052D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</attribute>
+</attributes>
+</Relation>

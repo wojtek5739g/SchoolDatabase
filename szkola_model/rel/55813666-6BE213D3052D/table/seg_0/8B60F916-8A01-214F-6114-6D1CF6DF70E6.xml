@@ -1,0 +1,110 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8B60F916-8A01-214F-6114-6D1CF6DF70E6" name="Konkretne_przedmioty">
+<createdBy>Hubert</createdBy>
+<createdTime>2022-05-28 12:35:09 UTC</createdTime>
+<ownerDesignName>model_logiczny</ownerDesignName>
+<ordsAlias>przedmioty_wykladane_w_danej_klasie</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="konkretny_przedmiot_id" id="4DBD9C69-645D-4E3D-B305-8AD9D0D3DC63">
+<createdBy>Hubert</createdBy>
+<createdTime>2022-05-28 13:02:41 UTC</createdTime>
+<ownerDesignName>model_logiczny</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="przedmiot_id" id="CF38C8DC-1204-B8C4-E7AD-DFF10D0561A3">
+<createdBy>Hubert</createdBy>
+<createdTime>2022-05-28 12:35:09 UTC</createdTime>
+<ownerDesignName>model_logiczny</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BC8F9401-FD1E-95C2-13C9-FDE72E781205" referredColumn="77D2D8E9-B738-E821-A34E-638E24A7B75D"/>
+</associations>
+</Column>
+<Column name="klasa_id" id="ACC69615-3084-7F69-B879-0D8915BC0396">
+<createdBy>Hubert</createdBy>
+<createdTime>2022-05-28 12:35:09 UTC</createdTime>
+<ownerDesignName>model_logiczny</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="EABA9657-84FA-6CC2-4328-3FBF87E8F7F1" referredColumn="80CA868D-1BF1-8EC4-8E17-3AE47B549897"/>
+</associations>
+</Column>
+<Column name="nauczyciel_id" id="82E13EDD-46CC-3DDF-FE23-91C8FDA38A5A">
+<createdBy>Hubert</createdBy>
+<createdTime>2022-05-28 13:07:54 UTC</createdTime>
+<ownerDesignName>model_logiczny</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F8B74FA4-659A-FD19-8E29-5C82AE050A8A" referredColumn="CAE4CE67-5240-DE73-5B38-040B5DC4BD91"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2DE04512-EA0B-AAF8-97A3-269870505C25" name="Konkretne_Przedmioty_PK">
+<createdBy>Hubert</createdBy>
+<createdTime>2022-05-28 12:35:09 UTC</createdTime>
+<ownerDesignName>model_logiczny</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4DBD9C69-645D-4E3D-B305-8AD9D0D3DC63"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F8D963CC-B243-5053-B8FE-F1E53D30B9D0" name="Przedmiot_FK">
+<createdBy>Hubert</createdBy>
+<createdTime>2022-05-28 12:35:09 UTC</createdTime>
+<generatorID>F378501A-D386-E29E-40A1-13FF8E2600E1</generatorID>
+<ownerDesignName>model_logiczny</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CF38C8DC-1204-B8C4-E7AD-DFF10D0561A3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C0D2E41E-4E5B-06AB-65CD-7DA3D0D4655C" name="Klasa_FK">
+<createdBy>Hubert</createdBy>
+<createdTime>2022-05-28 12:35:09 UTC</createdTime>
+<generatorID>F378501A-D386-E29E-40A1-13FF8E2600E1</generatorID>
+<ownerDesignName>model_logiczny</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="ACC69615-3084-7F69-B879-0D8915BC0396"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0E7334FB-7C15-CAA6-C8B8-0AD5A60715A5" name="Prowadzacy_FK">
+<createdBy>Hubert</createdBy>
+<createdTime>2022-05-28 13:07:54 UTC</createdTime>
+<generatorID>C32A373D-83AC-7650-57DC-3161E72E1ABB</generatorID>
+<ownerDesignName>model_logiczny</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="82E13EDD-46CC-3DDF-FE23-91C8FDA38A5A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

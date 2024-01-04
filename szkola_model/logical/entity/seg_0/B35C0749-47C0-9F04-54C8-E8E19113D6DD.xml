@@ -1,0 +1,86 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B35C0749-47C0-9F04-54C8-E8E19113D6DD" name="Uczniowie">
+<createdBy>Hubert</createdBy>
+<createdTime>2022-05-28 12:10:40 UTC</createdTime>
+<ownerDesignName>model_logiczny</ownerDesignName>
+<engineerTo>
+<item key="55813666-262F-D829-2D71-6BE213D3052D" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="uczen id" id="75944B6A-036F-CB04-1E12-F6BC6E19153C">
+<createdBy>Hubert</createdBy>
+<createdTime>2022-05-28 12:11:01 UTC</createdTime>
+<ownerDesignName>model_logiczny</ownerDesignName>
+<engineerTo>
+<item key="55813666-262F-D829-2D71-6BE213D3052D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="imie" id="D8938EA2-3AE1-2BA2-8C6C-A06D2B2764B8">
+<createdBy>Hubert</createdBy>
+<createdTime>2022-05-28 12:11:43 UTC</createdTime>
+<ownerDesignName>model_logiczny</ownerDesignName>
+<engineerTo>
+<item key="55813666-262F-D829-2D71-6BE213D3052D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nazwisko" id="98831695-B3FF-AF22-8419-EE31D24EAD3C">
+<createdBy>Hubert</createdBy>
+<createdTime>2022-05-28 12:12:24 UTC</createdTime>
+<ownerDesignName>model_logiczny</ownerDesignName>
+<engineerTo>
+<item key="55813666-262F-D829-2D71-6BE213D3052D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="klasa id" id="8360B0D2-E99D-42F9-B940-8AD3E2CA8301">
+<createdBy>Hubert</createdBy>
+<createdTime>2022-05-28 12:25:26 UTC</createdTime>
+<generatorID>74810409-1B27-EC81-F7B4-D549BE88232B</generatorID>
+<ownerDesignName>model_logiczny</ownerDesignName>
+<engineerTo>
+<item key="55813666-262F-D829-2D71-6BE213D3052D" value="true"/>
+</engineerTo>
+<referedAttribute>BC296FE4-13C4-0558-1410-4A0FDABD373F</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="BD160FD3-7D93-E00C-1659-9BA18C821143" name="Uczniowie PK">
+<createdBy>Hubert</createdBy>
+<createdTime>2022-05-28 12:11:40 UTC</createdTime>
+<ownerDesignName>model_logiczny</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="55813666-262F-D829-2D71-6BE213D3052D" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>75944B6A-036F-CB04-1E12-F6BC6E19153C</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

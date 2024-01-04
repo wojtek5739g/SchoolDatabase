@@ -1,0 +1,57 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Konkretne_przedmioty" directorySegmentName="seg_0" id="F378501A-D386-E29E-40A1-13FF8E2600E1">
+<createdBy>Hubert</createdBy>
+<createdTime>2022-05-28 12:31:11 UTC</createdTime>
+<ownerDesignName>model_logiczny</ownerDesignName>
+<engineerTo>
+<item key="55813666-262F-D829-2D71-6BE213D3052D" value="true"/>
+</engineerTo>
+<sourcePk>6C9BE7ED-AA43-2453-709A-B2C677FCFAC7</sourcePk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>A48FA223-AC96-4443-3652-AC7A63D76C48</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>491A8091-A5AB-844A-C49B-374F495CBBB1</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<attribute name="przedmiot id" id="269801A2-4102-19D0-F489-BA7AE586F8DE">
+<createdBy>Hubert</createdBy>
+<createdTime>2022-05-28 13:18:45 UTC</createdTime>
+<ownerDesignName>model_logiczny</ownerDesignName>
+<engineerTo>
+<item key="55813666-262F-D829-2D71-6BE213D3052D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</attribute>
+<attribute name="klasa id" id="2C752A7B-C09F-BDF6-81BC-D08FE3B08D68">
+<createdBy>Hubert</createdBy>
+<createdTime>2022-05-28 13:18:45 UTC</createdTime>
+<ownerDesignName>model_logiczny</ownerDesignName>
+<engineerTo>
+<item key="55813666-262F-D829-2D71-6BE213D3052D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</attribute>
+<attribute name="nauczyciel id" id="3A27C4E5-2EE2-7B98-1952-F7149429FCED">
+<createdBy>Hubert</createdBy>
+<createdTime>2022-05-28 13:18:45 UTC</createdTime>
+<ownerDesignName>model_logiczny</ownerDesignName>
+<engineerTo>
+<item key="55813666-262F-D829-2D71-6BE213D3052D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</attribute>
+</attributes>
+</Relation>
